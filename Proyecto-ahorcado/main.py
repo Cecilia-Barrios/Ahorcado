@@ -4,7 +4,12 @@ from Modulos.puntajes import mostrar_puntajes, guardar_puntaje
 
 # Menú principal
 def mostrar_menu():
-        
+        """
+    Muestra el menú principal del juego y solicita una opción al usuario.
+
+    Retorna:
+    - str: La opción seleccionada por el usuario.
+    """
         print("\n--- Menú Principal ---")
         print("1. Jugar")
         print("2. Ver puntajes")
